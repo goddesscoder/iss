@@ -27,7 +27,10 @@ def main():
     s.register_shape("iss.gif")
 
     t = turtle.Turtle()
+    t2 = turtle.Turtle()
     t.shape("iss.gif")
+    t2.shape("circle")
+    t2.color('yellow')
     t.setheading(45)
     t.penup()
 
